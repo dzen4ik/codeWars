@@ -1,2 +1,6 @@
-let x = 3
-let t  =4
+function getAverage(marks){
+const sum = marks.reduce((total,mark) => {
+    return total + mark
+    })
+    return Math.floor(sum / marks.length)
+}
