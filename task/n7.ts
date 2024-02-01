@@ -1,7 +1,7 @@
 function monkeyCount(n) {
     let arr = [];
-    for(let i = 1; i <= n; i++){
-        arr.push(i)
+    for(let i = 0; i <= n; i++){
+        arr.push(Math.pow(2,i))
     }
     return arr
 }
